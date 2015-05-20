@@ -6,11 +6,14 @@
 syntax enable "Enable syntax hilighting
 colorscheme molokai "Set colorscheme
 
+filetype indent on "Filetype-specific indentation
+filetype plugin on
+
 "Indentation
 set tabstop=4
+set shiftwidth=4
 set softtabstop=4
 set expandtab "Tabs = spaces
-filetype indent on "Filetype-specific indentation
 
 "Encoding
 set encoding=utf-8
