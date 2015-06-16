@@ -1,6 +1,23 @@
 " My .vimrc, massive chunks stolen from
 " http://dougblack.io/words/a-good-vimrc.html
-" Updated : 8.5.2015
+" updated: 16.6.2015
+
+" Vundle
+set nocompatible
+filetype off
+
+" Set the runtime path to include Vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Vundle plugins from Github:
+Plugin 'gmarik/Vundle.vim'
+Plugin 'gmarik/vundle'
+
+" Autocompletion
+Plugin 'Valloric/YouCompleteMe'
+
+call vundle#end()
 
 "General
 syntax enable "Enable syntax hilighting
