@@ -1,11 +1,24 @@
 " My .vimrc, massive chunks stolen from
 " http://dougblack.io/words/a-good-vimrc.html
-" updated: 27.1.2016
+" updated: 17.8.2016
+"
+" vim-plug for plugins
+
+call plug#begin('~/.config/nvim/plugged')
+
+Plug 'junegunn/vim-easy-align'
+
+Plug 'rust-lang/rust.vim'
+
+Plug 'shougo/neocomplete.vim'
+
+call plug#end()
+
 
 "General
 syntax enable
-colorscheme kalisi
-set background=light
+colorscheme molokai
+"set background=dark
 set t_Co=256
 
 filetype indent on "Filetype-specific indentation
