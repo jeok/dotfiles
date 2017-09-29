@@ -186,7 +186,7 @@ bar {
     # The font really depends on the system e.g. on the desktop:
     # font Adobe Source Code Pro It 10
     position top
-    status_command i3status
+    status_command i3blocks
     colors {
         #statusline #ffffff
         #background #323232
